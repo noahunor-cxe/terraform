@@ -1,0 +1,19 @@
+# terraform.tfvars
+
+# AWS credentials 
+access_key = ""
+secret_key = ""
+
+# Environment 
+env = "test"
+
+# AWS region
+region = "us-east-1"
+
+# S3 bucket region and name
+s3_bucket_region = "us-east-1"
+s3_bucket_name = "rc-tf-bucket-training-exercise-11"
+
+# Environment tag
+tag_env = "training"
+
