@@ -1,6 +1,9 @@
 variable "access_key" {type=string}
 variable "secret_key" {type=string}
 
+variable access_key = "${var.access_key}"
+variable secret_key = "${var.secret_key}"
+
 variable "env" {
   default= "test"
 }
