@@ -1,8 +1,8 @@
 # terraform.tfvars
 
 # AWS credentials 
-export TF_VAR_access_key = "<+secrets.getValue(“account.awsaccesskey”)>"
-export TF_VAR_secret_key = "<+secrets.getValue(“account.Pedro_CCM_Secret_Key”)>"
+export TF_VAR_access_key=<+secrets.getValue(“account.awsaccesskey”)>
+export TF_VAR_secret_key=<+secrets.getValue(“account.Pedro_CCM_Secret_Key”)>
 
 
 
