@@ -1,6 +1,10 @@
 variable "access_key" {}
 variable "secret_key" {}
 
+variable "env" {
+  default= "test"
+}
+
 variable "region" {
   type        = string
   description = "AWS Region required by Terraform AWS Provider"
